@@ -43,5 +43,7 @@ def using_uniq(array)
   array.uniq
 end 
 
+#takes array containing other arrays and returns new array with those elements 
 def using_flatten(array)
-  
+  array.flatten 
+end 
