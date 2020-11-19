@@ -33,7 +33,7 @@ def using_concat(array1, array2)
   array1.concat(array2)
 end 
 
-#insert adds values based on defined (index, object)
+#insert adds values to array based on defined (index, object)
 def using_insert(array, element)
   array.insert(4, element)
 end 
