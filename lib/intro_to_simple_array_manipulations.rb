@@ -38,6 +38,7 @@ def using_insert(array, element)
   array.insert(4, element)
 end
 
+#uniq removes duplicate values and returns new array 
 def using_uniq(array)
   array.uniq
 end 
