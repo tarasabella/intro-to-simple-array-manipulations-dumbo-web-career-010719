@@ -53,6 +53,7 @@ def using_delete(array, string)
   array.delete(string)
 end 
 
+#delete at removes element at specifed index and returns it 
 def using_delete_at(array, int) 
   array.delete(int)
 end 
