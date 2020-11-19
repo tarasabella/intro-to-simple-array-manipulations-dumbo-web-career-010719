@@ -48,5 +48,6 @@ def using_flatten(array)
   array.flatten 
 end 
 
+#delete removes all elements equal to the string 
 def using_delete(array, string)
-  array.delete
+  array.delete(string)
